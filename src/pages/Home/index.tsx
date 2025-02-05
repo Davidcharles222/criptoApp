@@ -2,9 +2,7 @@ import { Link, useNavigate } from "react-router-dom";
 import styles from "./Home.module.css";
 import { BsSearch } from "react-icons/bs";
 import { useEffect, useState } from "react";
-import { AiOutlineLoading3Quarters } from "react-icons/ai";
 import { FaSpinner } from "react-icons/fa";
-import { MdAutorenew } from "react-icons/md";
 
 export interface CoinProps {
   id: string;
